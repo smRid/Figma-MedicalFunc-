@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+/* ======================Navbar======================= */
+
+
+
+nav {
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+    color: transparent;
+}
+
+
+.navbar .navbar-nav {
+    column-gap: 21px;
+}
+
+nav .navbar-brand {
+    /* padding: 0; */
+    margin-left: 136px;
+    margin-right: 71px;
+}
+
+nav .navbar-nav .nav-item .nav-link{
+    padding: 0;
+    margin: 0;
+}
+
+nav .navbar-nav .nav-item .nav-link{
+    color: #737373;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    letter-spacing: 0.2px;
+}
+
+nav .nav_btn_1{
+    color:  #23A6F0;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    margin-left: 240px;
+}
+nav .nav_btn_2{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    border-radius: 5px;
+    background: #23A6F0;
+    padding: 15px 15px;
+    margin: 20px 60px 20px 45px;
+
+}
+nav .nav_btn_2 i{
+    margin-left: 15px;
+}
+
+
+
+/* ======================Banner======================= */
+
+
+
+#Banner .banner_text h1{
+    margin-top: 60px;
+    color: var(--primary-color, #23A6F0);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.1px;
+}
+
+#Banner .container .banner_text h2{
+    color: var(--text-color, #252B42);
+    width: 542px;
+    font-family: Montserrat;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; /* 137.931% */
+    letter-spacing: 0.2px;
+}
+
+#Banner .container .banner_text p{
+    color: var(--second-text-color, #737373);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: 0.2px;
+}
+
+#Banner .container .banner_text button{
+    padding: 15px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#Banner .container .banner_text button btn btn-outline-info{
+    border-radius: 5px;
+    border: 1px solid var(--primary-color, #23A6F0);
+    padding: 15px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#Banner .col-lg-6{
+    background: #aaddf5;
+}
+
+/* =========================Activity_part================ */
+#Activity{
+    padding: 160px 0px;
+}
+
+#Activity img{
+    width: 45px;
+    height: 67.5px;
+    flex-shrink: 0;
+}
+
+#Activity .row{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#Activity h5{
+    padding-top: 20px;
+    color: var(--text-color, #252B42);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.1px;
+}
+
+#Activity p{
+    padding-top: 20px;
+    color: var(--second-text-color, #737373);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.1px;
+}
+
+
+/* ========================Newsletter_part================= */
+
+#Newsletter{
+    padding: 120px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: var(--text-color, #252B42);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.1px;
+}
+
+#Newsletter h1{
+    color: var(--primary-text-color, #23A6F0);
+    text-align: center;
+
+    /* h6 */
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.2px;
+}
+
+#Newsletter h2{
+    color: var(--text-color, #252B42);
+    text-align: center;
+
+    /* h2 */
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 125% */
+    letter-spacing: 0.2px;
+}
+
+#Newsletter p{
+    color: var(--second-text-color, #737373);
+    text-align: center;
+
+    /* paragraph */
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+}
+
+#Newsletter .input-group{
+    display: flex;
+    width: 688px;
+    padding: 15px 591px 15px 20px;
+    align-items: center;
+}
+/* =============================Footer========================== */
+
+footer{
+    background-color: var(--footer-bg-color, #F8F8F8);
+    padding: 120px 0 0 0;
+}
+
+footer .footer_menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+footer .footer_menu a{
+    color: var(--second-text-color, #737373);
+    /* link */
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.2px;
+}
+
+
+footer .credit{
+    padding-top: 50px;
+}
+
+footer .credit p{
+    color: var(--second-text-color, #737373);
+
+    /* h6 */
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.2px;
+}
